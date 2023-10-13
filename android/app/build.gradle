@@ -59,7 +59,7 @@ android {
 
     defaultConfig {
         // Update with your unique Application ID.
-        applicationId "almost_zenly (android)"
+        applicationId "almost_zenly"
 
         minSdkVersion 20
         targetSdkVersion flutter.targetSdkVersion
