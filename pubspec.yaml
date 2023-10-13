@@ -1,0 +1,28 @@
+name: almost_zenly
+description: A new Flutter project
+publish_to: none # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^3.5.1
+  firebase_core: ^1.24.0
+  firebase_auth: ^3.11.2
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
